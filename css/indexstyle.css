@@ -87,9 +87,35 @@ background-color: grey;
     text-align: center;
 }
 
+<<<<<<< HEAD
+#picture h1{
+  font-size: 35px;
+  font-family: 'Mansalva', cursive;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-color: red;
+  border-radius: 50%;
+}
+#picture p{
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 50%;
+
+}
+#picture img{
+  width: 350px;
+  height: auto;
+=======
 #picture table tr p{
     text-align: center;
     color: black;
+>>>>>>> 9e20ca0d2e09aa36833ac6438127b6059919b5ae
 }
 
 #picture table {

@@ -1,0 +1,25 @@
+body{
+  background-color: #e9e0c8;
+  border: black 5px solid;
+  padding-bottom:140px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  padding-top: 10px;
+}
+
+p{
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#header{
+
+}
+
+#textwhy{
+
+}
