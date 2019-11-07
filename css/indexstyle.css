@@ -55,20 +55,14 @@ font-family: 'Permanent Marker', cursive;
 }
 
 
+th, td {
+border: 1px solid black;
+}
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+border-collapse: collapse;
 }
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr {
-  background-color: darkgray;
+tr:nth-child(even) {
+background-color: grey;
 }
 
 
