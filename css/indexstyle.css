@@ -48,6 +48,11 @@ font-family: 'Permanent Marker', cursive;
   text-decoration: none;
 }
 
+.tabel {
+  padding-left: 500px;
+}
+
+
 /* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -55,20 +60,17 @@ font-family: 'Permanent Marker', cursive;
 }
 
 
+th, td {
+border: 1px solid black;
+}
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+border-collapse: collapse;
 }
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+tr:nth-child(even) {
+background-color: grey;
 }
-
-tr {
-  background-color: darkgray;
+tr:nth-child(odd){
+background-color: white;
 }
 
 
@@ -93,10 +95,12 @@ tr {
     text-align: center;
 }
 
-<<<<<<< HEAD
+
 #picture h1{
-  font-size: 35px;
+
+  /*font-size: 35px;*/
   font-family: 'Mansalva', cursive;
+  /*
   background-color: black;
   color: white;
   text-align: center;
@@ -104,6 +108,8 @@ tr {
   margin-right: 100px;
   border-color: red;
   border-radius: 50%;
+  */
+  padding-left: 450px;
 }
 #picture p{
   font-size: 15px;
@@ -112,10 +118,12 @@ tr {
   margin-left: 400px;
   margin-right: 400px;
   border-radius: 50%;
+  padding-left: 175px;
 
 }
 #picture img{
   width: 350px;
+  padding-left: 450px;
   height: auto;
 =======
 #picture table tr p{
@@ -134,4 +142,3 @@ tr {
   width: 350px;
   height: auto;
 }
-
