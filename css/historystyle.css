@@ -1,24 +1,96 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
-#text {
+body {
+	font-family: Arial;
+	background-size: cover;
+  	padding: 20px 150px 20px 150px;
+	background-image: url("../img/background.jpg");
+}
 
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  margin-left: 80px;
-  margin-right: 80px;
-  border-radius: 5%;
-  background-color: #8a5450;
+/* Header/Blog Title */
+#logo-left{
+	float: left;
+	padding-left: 40px;
+}
+#logo-right{
+	float: right;
+	padding-right: 40px;
+}
+.clearfix{overflow: auto;}
+.header {  
+  	text-align: center;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.header h2 {
+	font-family: 'Mansalva', cursive;
+  	font-size: 50px;
+  	color: black;
+}
+.header p {
+	font-family: 'Permanent Marker', cursive;
+  	font-size: 30px;
+  	color: black;
+}
+/* Header/Blog Title */
+
+/*Navbar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+nav li {
+    float: left;
+    padding: 10px;
+}
+nav li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
 }
+/*Navbar*/
 
-
-h1 {
-  color: blue;
+/*Slider*/
+#carouselExampleIndicators{text-align: center;}
+#slider{
+	background-color: white;
 }
-h3 {
-  color: blue;
-  font-family: 'Varela Round', sans-serif;
+#slider img {
+	height: 400px;
+	width: auto;
 }
+/*Slider*/
 
+/*Main*/
+.main {
+	background-color: dimgray;
+	padding: 50px 20px 50px 20px;
+}
+.main h2,h3{
+	color: white;
+}
+/*Main*/
+
+/* Footer */
+.footer {
+  	padding: inherit;
+  	text-align: center;
+  	background: black;
+}
+.footer h2{
+
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 30px;
+}
+.footer p {
+	color: white;
+}
+/* Footer */
