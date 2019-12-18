@@ -4,8 +4,8 @@
 body {
 	font-family: Arial;
 	background-size: cover;
-  	padding: 20px 150px 20px 150px;
-	background-image: url("../img/background.jpg");
+  	margin: 20px 150px 20px 150px;
+	background-color: lightblue;
 }
 
 /* Header/Blog Title */
@@ -18,21 +18,21 @@ body {
 	padding-right: 40px;
 }
 .clearfix{overflow: auto;}
-.header {  
-  	text-align: center;
+.header {
+	text-align: center;
 	background-color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .header h2 {
 	font-family: 'Mansalva', cursive;
-  	font-size: 50px;
-  	color: black;
+	font-size: 50px;
+	color: black;
 }
 .header p {
 	font-family: 'Permanent Marker', cursive;
-  	font-size: 30px;
-  	color: black;
+	font-size: 30px;
+	color: black;
 }
 /* Header/Blog Title */
 
@@ -62,9 +62,9 @@ nav li a {
 #slider{
 	background-color: white;
 }
-#slider img {
+#slider img{
+	width: 600px;
 	height: 400px;
-	width: auto;
 }
 /*Slider*/
 

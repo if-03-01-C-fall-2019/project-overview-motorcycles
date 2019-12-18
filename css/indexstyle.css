@@ -4,8 +4,8 @@
 body {
 	font-family: Arial;
 	background-size: cover;
-  	padding: 20px 150px 20px 150px;
-	background-image: url("../img/background.jpg");
+  	margin: 20px 150px 20px 150px;
+	background-color: lightblue;
 }
 
 /* Header/Blog Title */
