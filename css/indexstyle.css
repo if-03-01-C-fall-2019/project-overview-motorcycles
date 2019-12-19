@@ -4,7 +4,7 @@
 body {
 	font-family: Arial;
 	background-size: cover;
-  	margin: 20px 150px 20px 150px;
+  	margin: 20px 200px 20px 200px;
 	background-color: lightblue;
 }
 
@@ -33,6 +33,10 @@ body {
 	font-family: 'Permanent Marker', cursive;
   	font-size: 30px;
   	color: black;
+}
+.header img{
+	width: 200px;
+	height: auto;
 }
 /* Header/Blog Title */
 

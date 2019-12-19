@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
 body {
-    font-family: Arial;
-    background-size: cover;
-    margin: 20px 150px 20px 150px;
-    background-color: lightblue;
+	font-family: Arial;
+	background-size: cover;
+  	margin: 20px 200px 20px 200px;
+	background-color: lightblue;
 }
 
 /* Header/Blog Title */
@@ -34,6 +34,10 @@ body {
     font-size: 30px;
     color: black;
 }
+.header img{
+	width: 200px;
+	height: auto;
+}
 /* Header/Blog Title */
 
 /*Navbar*/
@@ -57,7 +61,25 @@ nav li a {
 }
 /*Navbar*/
 
+/*Slider*/
+#carouselExampleIndicators{text-align: center;}
+#slider{
+	background-color: white;
+}
+#slider img {
+	height: 400px;
+	width: auto;
+}
+/*Slider*/
+
 /*Main*/
+.main {
+	background-color: dimgray;
+	padding: 50px 20px 50px 20px;
+}
+.main h2,h3{
+	color: white;
+}
 /*Main*/
 
 /* Footer */
